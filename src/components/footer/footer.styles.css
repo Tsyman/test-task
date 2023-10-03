@@ -1,0 +1,18 @@
+.footer {
+ display: flex;
+ justify-content: space-evenly;
+ align-items: center;
+ width: 100%;
+ margin: 30px 0 11px 0;
+}
+
+.footer__link {
+  color: rgba(255, 255, 255, 0.50);
+  font-size: 12.5px;
+  text-decoration: none;
+}
+
+.footer__link:lang(de),
+.footer__link:lang(fr) {
+  font-size: 11px;
+}

@@ -1,0 +1,69 @@
+.button {
+  border-radius: 32px;
+  width: 327px;
+  height: 56px;
+  margin: 8px 0;
+}
+
+.plan-button {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: start;
+  background: rgba(255, 255, 255, 0.10);
+  color: #fff;
+  padding: 0 30px;
+  outline: none;
+  border: none;
+  position: relative;
+}
+
+.plan-button__title,
+.plan-button__subtitle {
+  margin: 0;
+  font-size: 16px;
+}
+
+.plan-button__title:lang(de),
+.plan-button__subtitle:lang(de),
+.plan-button__title:lang(fr),
+.plan-button__subtitle:lang(fr) {
+  font-size: 14px;
+}
+
+.plan-button__title {
+  margin-bottom: 2px;
+}
+
+.plan-button__subtitle,
+.plan-button__price {
+  opacity: 0.7;
+  font-weight: 400;
+}
+
+.active {
+  border: 1px solid #FFF;
+  background: rgba(255, 255, 255, 0.30);
+}
+
+.plan-button__best-offer {
+  position: absolute;
+  right: 24px;
+  top: -10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 119px;
+  height: 20px;
+  border-radius: 10px;
+  background: #FFF;
+  box-shadow: 0px 1px 6px 0px rgba(0, 0, 0, 0.50);
+  color: #141131;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.plan-button__best-offer:lang(de),
+.plan-button__best-offer:lang(fr) {
+  font-size: 12px;
+}

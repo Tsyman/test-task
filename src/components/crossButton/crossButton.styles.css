@@ -1,0 +1,9 @@
+.cross-button {
+  width: 12px;
+  height: 12px;
+  color: #FFFFFF66;
+  position: absolute;
+  top: 30px;
+  left: 0;
+  text-decoration: none;
+}
