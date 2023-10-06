@@ -3,7 +3,43 @@
   height: 12px;
   color: #FFFFFF66;
   position: absolute;
-  top: 30px;
+  top: 37px;
   left: 0;
   text-decoration: none;
 }
+
+/* iPhone 11 pro */
+@media only screen 
+  and (width: 375px) 
+  and (height: 812px) { 
+    .cross-button {
+      top: 72px;
+    }
+  }
+
+/* iPhone 14 pro max */
+@media only screen 
+  and (width: 430px) 
+  and (height: 932px) { 
+    .cross-button {
+      top: 72px;
+    }
+  }
+
+/* iPhone 14 plus */
+@media only screen 
+  and (width: 428px) 
+  and (height: 926px) { 
+    .cross-button {
+      top: 72px;
+    }
+  }
+
+/* iPhone 14 */
+@media only screen 
+  and (width: 390px) 
+  and (height: 844px) { 
+    .cross-button {
+      top: 72px;
+    }
+  }

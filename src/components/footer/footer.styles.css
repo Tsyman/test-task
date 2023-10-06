@@ -16,3 +16,39 @@
 .footer__link:lang(fr) {
   font-size: 11px;
 }
+
+/* iPhone 11 pro */
+@media only screen 
+  and (width: 375px) 
+  and (height: 812px) { 
+    .footer {
+      margin-bottom: 34px
+    }
+  }
+
+/* iPhone 14 pro max */
+@media only screen 
+  and (width: 430px) 
+  and (height: 932px) { 
+    .footer {
+      margin-bottom: 34px
+    }
+  }
+
+/* iPhone 14 plus */
+@media only screen 
+  and (width: 428px) 
+  and (height: 926px) { 
+    .footer {
+      margin-bottom: 34px
+    }
+  }
+
+/* iPhone 14 */
+@media only screen 
+  and (width: 390px) 
+  and (height: 844px) { 
+    .footer {
+      margin-bottom: 34px
+    }
+  }
